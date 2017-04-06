@@ -26,9 +26,7 @@
     
     
     UIImageView *imageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"1.png"]];
-    
     self.view = imageView;
-    
     imageView.userInteractionEnabled = YES;
     
     
